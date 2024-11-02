@@ -1,0 +1,71 @@
+/* SecondSection.css */
+
+.SecondSection {
+  max-width: 80vw;
+  margin: auto;
+  text-align: center;
+}
+
+.SecondSection h1 {
+  font-size: 1.9rem;
+  margin-top: 10px;
+}
+
+.SecondSection .text-grey {
+  color: grey;
+  font-size: 1rem;
+}
+
+.horizontal-line {
+  width: 90%;
+  height: 2px;
+  background-color: #ddd;
+  margin: 20px auto;
+}
+
+.experience-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 15%;
+  position: relative;
+}
+
+.vertical-line {
+  height: 100px;
+  width: 2px;
+  background-color: #ddd;
+  position: absolute;
+  top: -20px; /* Aligns the top of the vertical line with the horizontal line */
+}
+
+.vertical img {
+  width: 40px;
+  margin-top: 78px; /* Positions the image just below the horizontal line */
+}
+
+.vertical-title,
+.vertical-desc {
+  position: relative;
+  top: 20px; /* Adjusts text to align at the bottom of the vertical line */
+  text-align: center;
+}
+
+.vertical-title {
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.vertical-desc {
+  color: grey;
+  font-size: 12px;
+  margin-top: 4px;
+  width: 90%;
+}

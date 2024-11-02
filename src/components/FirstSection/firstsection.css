@@ -1,0 +1,78 @@
+/* firstsection.css */
+
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 130px 0;
+  padding: 20px; /* Add padding for aesthetics */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.firstSection > div {
+  width: 30%;
+}
+
+.leftSection {
+  font-size: 2.5rem;
+  line-height: 1.5; /* Line height for readability */
+}
+#element {
+  color: rgb(170, 107, 228); /* Color for typed text */
+  font-weight: bold; /* Make typed text bold */
+}
+
+.buttons {
+  margin-top: 50px; /* Spacing above buttons */
+}
+
+.btn {
+  background-color: #1e2167;
+  color: white; /* Button text color */
+  padding: 20px; /* Button padding */
+  margin: 5px;
+  border-radius: 6px; /* Rounded button corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  font-size: 20px; /* Button font size */
+  border: 2px solid white;
+  width: auto;
+}
+
+.btn:hover {
+  background-color: #1e2167; /* Darker shade on hover */
+}
+
+.rightSection img {
+  width: 100%; /* Responsive image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Rounded corners for image */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .firstSection {
+    flex-direction: column; /* Stack sections on smaller screens */
+    align-items: center;
+  }
+
+  .firstSection > div {
+    width: 80%; /* Wider sections on smaller screens */
+    text-align: center; /* Center text */
+  }
+
+  .leftSection {
+    font-size: 2rem; /* Smaller font size for mobile */
+  }
+
+  .btn {
+    width: 100%; /* Full-width buttons on mobile */
+    margin-bottom: 10px; /* Spacing between buttons */
+  }
+}
+.custom-hr {
+  border: none;
+  border-top: 1px solid #ccc; /* Change color as needed */
+  margin: 20px 0; /* Adjust spacing */
+}
+
